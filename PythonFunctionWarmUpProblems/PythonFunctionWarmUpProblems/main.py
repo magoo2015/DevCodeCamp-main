@@ -80,7 +80,7 @@
 # The logic of the function should print the string to the console but only if that string has three or more characters in it
 # If it is less than three characters, then print to the console 'we need a larger string to print!'
 
-how_many_strings = input("Input string: ")
+#how_many_strings = input("Input string: ")
 
 
 def mystring(how_many_strings):
@@ -92,5 +92,5 @@ def mystring(how_many_strings):
     else:
          print("We need a larger string to print")
 
-mystring(how_many_strings)
+mystring("two")
     
